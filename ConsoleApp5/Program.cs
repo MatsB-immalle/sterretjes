@@ -9,6 +9,14 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
+            string sterretjes = "";
+
+
+            for (int i = 0; i < 100; i++)
+            {
+                sterretjes = sterretjes + '*';
+            }
+            Console.WriteLine(sterretjes);
         }
     }
 }
